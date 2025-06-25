@@ -1,0 +1,448 @@
+/* @font-face {
+    font-family: gilroymedium;
+    src: url(../font/gilroy/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: gilroybold;
+    src: url(../font/gilroy/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: gilroysemibold;
+    src: url(../font/gilroy/Gilroy-SemiBold.ttf);
+} */
+
+
+
+.navbar-nav .nav-item a {
+    font-family: gilroymedium;
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #05A93D;
+}
+
+.navbar-nav .dropdown-item.active,
+.navbar-nav .dropdown-item.show {
+    color: #05A93D;
+    background-color: white;
+}
+
+.dropdown-item:active{
+    background-color: #EFFAF6;
+    max-width: 270px;
+}
+
+
+
+.nav-item a {
+    font-size: 16px;
+}
+
+.dropdown-menu {
+    width : 270px;
+    border: none;
+    border-radius: 0%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.about-drop{
+    width : 200px;
+}
+
+.about-drop a{
+    width : 200px;
+}
+
+.dropdown-menu hr{
+    opacity : .15 ;
+}
+
+.dropdown-item {
+    font-family: gilroymedium;
+    font-size: 15px;
+    width: 270px;
+    white-space: normal;
+}
+
+.dropdown-menu li:hover {
+    background-color: #EFFAF6;
+}
+
+.dropdown-item span {
+    color: #05A93D;
+}
+
+.menu-shadow{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.jumbotron {
+    background: url("/images/Jumbotron-cropped.svg") no-repeat center center;
+    background-size: cover;
+
+}
+
+.left {
+    min-width: 40%;
+}
+
+.right {
+    min-width: 40%;
+}
+
+#name {
+    font-family: gilroybold;
+    color: #05A93D;
+}
+
+#inst {
+    font-family: gilroybold;
+    color: #F67C01;
+
+}
+
+.desc {
+    font-family: gilroymedium;
+    font-size: 16px;
+    letter-spacing: 3%;
+    max-width: 90%;
+    color: #4A4949;
+}
+
+.btn-style {
+    background-color: #05A93D;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: gilroysemibold;
+}
+
+.btn-style:hover {
+    background-color: #F67C01;
+    color: white;
+}
+
+.btn-icon {
+    border: 2.25px solid #F1F601;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 0px 7px rgba(119, 119, 119, 0.1);
+}
+
+.card-icon {
+    background-color: #F67C01;
+    border: none;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-family: gilroysemibold;
+    font-size: 21px;
+}
+
+.card-text {
+    font-family: gilroymedium;
+    font-size: 17px;
+    color: #777777;
+}
+
+
+/* TRAINING SECTION */
+
+.training {
+    background-color: #EFFAF6;
+
+}
+
+.training-head {
+    max-width: 100%;
+}
+
+.training-head h1 {
+    font-family: gilroybold;
+}
+
+.training-head p {
+    font-family: gilroymedium;
+    font-size: 17px;
+    color: #777777;
+    max-width: 50%;
+}
+
+
+.module-badge {
+    font-family: gilroysemibold;
+    background-color: #05A93D;
+    color: white;
+    font-size: 14px;
+}
+
+.training-title {
+    font-family: gilroysemibold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2%;
+}
+
+.training-text {
+    font-family: gilroymedium;
+    font-size: 15px;
+    color: #777777;
+    line-height: 1.75;
+    letter-spacing: 2%;
+}
+
+.read-more {
+    font-family: gilroysemibold;
+    font-size: 17px;
+    color: #05A93D;
+    text-decoration: none;
+}
+
+.sm-btn-icon {
+    border: 2.25px solid #F67C01;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+/* ROBBIE SECTION */
+
+.about-image {
+    max-width: 40%;
+}
+
+.about-text {
+    max-width: 40%;
+}
+
+
+.robbie-title {
+    font-family: gilroybold;
+    color: #05A93D;
+    font-size: 43px;
+}
+
+.robbie-text {
+    font-family: gilroymedium;
+    color: #777777;
+    line-height: 1.75;
+    font-size: 16px;
+}
+
+.about-text .btn-style {
+    max-width: 225px;
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+    background-color: #EFFAF6;
+}
+
+.contact-head {
+    font-family: gilroybold;
+
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #8F8F8F;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.form-label {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    color: #777777;
+    font-family: gilroymedium;
+}
+
+.custom-width input {
+    height: 1000px;
+}
+
+
+.form-control:focus {
+    border: none;
+    border-bottom: 2px solid #8F8F8F;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+#message{
+    resize: none;
+}
+
+
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: #05A93D;
+    color: white;
+}
+
+.footer-menu a {
+    font-family: gilroymedium;
+    font-size: 17px;
+    text-align: none;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+}
+
+.social-icon img {
+    background-color: #F67C01;
+    border: none;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+
+}
+
+
+.footer-bottom {
+    font-family: gilroymedium;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+}
+
+/* ABOUT US PAGE */
+
+.jumbo-title{
+    font-family: gilroybold;
+    color :#05A93D;
+    max-width: 50%;
+    font-size : 50px;
+    padding-top : 150px;
+    padding-bottom: 150px;
+}
+
+.long-text{
+    font-family: gilroymedium;
+    font-size : 1rem;
+    letter-spacing: .32px;
+    color : #777777;
+    margin-top: 50px;
+    margin-bottom : 75px;
+}
+
+.long-text p, .long-text li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom : 20px;
+}
+
+.long-text h3{
+    font-family: gilroysemibold;
+    font-size : 23px;
+    letter-spacing : .46px;
+    color : #444444;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+.long-text h2{
+    font-family: gilroysemibold;
+    font-size: 36px;
+    letter-spacing: .72px;
+    color : black
+}
+
+#hightlight{
+    font-family: gilroysemibold;
+    color : #444444;
+}
+
+/* MODULE PAGE */
+
+.module-pic .module-badge{
+    max-width : 112px;
+    text-align: center;
+
+}
+
+.module-container{
+    border : 1px solid #cadad4;
+}
+
+.module-container .subhead{
+    font-size :18px;
+    color : #555555;
+    font-family: gilroymedium;
+}
+
+/* MODULE PAGE */
+
+.contact-info p{
+    font-family: gilroymedium;
+    font-size : 15px;
+    color : #777777;
+    letter-spacing : 0.3px;
+}
+
+.contact-info h2{
+    font-family : gilroybold;
+    font-size : 25px;
+    color : black;
+}
+
+.contact-form label{
+    color : #898989
+}
+
+.contact-form input{
+    border-color: #a9a9a9;
+}
+
+.live-map iframe{
+    height : 434px;
+    width : 100%;
+    border:0; 
+    display:block; 
+    margin:0; 
+    padding:0;
+}
+
+
+/* MEDIUM SCREEN */
+
+@media only screen and (max-width : 768px) {
+    .card-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-menu {
+        max-width: 50%;
+    }
+
+}
+
+@media only screen and (max-width : 992px) {
+    .about-text {
+        max-width: 100%;
+    }
+
+    .footer-menu {
+        max-width: 50%;
+        margin-left : auto;
+        margin-right : auto;
+    }
+}
