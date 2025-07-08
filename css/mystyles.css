@@ -81,7 +81,7 @@
 }
 
 .jumbotron {
-    background: url("/images/Jumbotron-cropped.svg") no-repeat center center;
+    background: url("../images/Jumbotron-cropped.svg") no-repeat center center;
     background-size: cover;
 
 }
